@@ -5,29 +5,17 @@ function Header() {
   return (
     <header>
         <div>
-            <p>My Recipe Book</p>
+            <h1>My Recipe Book</h1>
         </div>
         <nav>
-            <ul>
-                <li>
                 <a href="accueil">Accueil</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
+                
                 <a href="starters">Entrées</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
+                
                 <a href="mains">Plats</a>
-                </li>
-            </ul>
-            <ul>
-                <li>
+                
                 <a href="desserts">Déssert</a>
-                </li>
-            </ul>
+               
         </nav>
     </header>
   )
