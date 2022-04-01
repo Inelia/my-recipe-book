@@ -1,6 +1,9 @@
 import React from 'react'
 
 function RecipeDetails(props) {
+    //   const populateRecipes = data.recipes.map((iteration) =>{
+    //     return <RecipeDetails key={iteration.title} {...iteration} />
+    // });
   return (
     <main className='recipe'>
         <h3 className='recipe__title'>{props.title}</h3>
