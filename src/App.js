@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <p>page chargé</p>
+      <Home />
     </div>
   );
 }
