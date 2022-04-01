@@ -7,8 +7,8 @@ export default{
             level:"Facile",
             servs:"8",
             prepTemp:"1h",
-            cookingTemp:"30min",
-            stars:"5/5",
+            cookingTemp:"",
+            stars:"",
             cost:"",
             ingredients:"",
             img:"",
@@ -41,5 +41,16 @@ export default{
             instructions:"",
         }
 
+    ],
+    card:[
+        {
+        title:""
+        },
+        {
+        title:""
+        },
+        {
+        title:""
+        }
     ]
 }
