@@ -1,10 +1,14 @@
-import React from 'react'
+import React from "react"
 import "./Home.css"
+import Card from "../../components/Card/Card";
+
 
 function Home() {
   return (
-  <main>Home</main>
+  <main>
+    <Card/>
+  </main>
   )
 }
 
-export default Home
+export default Home;
