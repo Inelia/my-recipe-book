@@ -1,0 +1,28 @@
+.card{
+    background-color: #f1912ada;
+    width: 30%; 
+    padding: 30px;
+    border-radius: 0 25px;
+}
+
+.card__img{
+    height: 150px;
+    width: 150px;
+    
+
+}
+.card__title{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.card__link{
+    text-decoration: none;
+    background-color: rgb(255, 94, 0);
+    height: 3rem;
+    width: 7rem;
+    text-align: center;
+    border-radius: 50% ;
+    padding-top: .5rem;
+}
