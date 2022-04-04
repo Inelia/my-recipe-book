@@ -40,7 +40,7 @@ export default{
         },
         {
             title:"Croquettes de légumes",
-            description:"",
+            description:"Les meilleurs croquettes de ma grand-mère.",
             type:"Entrée",
             level:"Facile",
             servs:"6",

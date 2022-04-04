@@ -11,8 +11,7 @@ function Header() {
                 <a href="accueil">Accueil</a>
                 <a href="starters">Entrées</a>
                 <a href="mains">Plats</a>
-                <a href="desserts">Déssert</a>
-               
+                <a href="desserts">Dessert</a>
         </nav> */}
         <Navigation />
     </header>

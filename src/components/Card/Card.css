@@ -1,0 +1,49 @@
+.card{
+    background-color: #ffffff;
+    width: 20%; 
+    padding: 30px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 4px #08393e;
+    margin: 65px 0 72px 0;
+    
+    
+}
+
+.card__img{
+    height: 200px;
+    width: 195px;
+    object-fit: cover;
+    border: solid 4px #08393e;
+    border-radius: 15px;
+    
+
+}
+.card__title{
+    font-family: 'Grape Nuts', cursive;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.card__link{
+    text-decoration: none;
+    background-color: #cadacf;
+    border: solid 3px #08393e;
+    height: 2rem;
+    width: 7rem;
+    text-align: center;
+    border-radius: 50% ;
+    padding-top: .5rem;
+    display: inline-block;
+    padding-top: .5rem;
+    color: black;
+    
+}
+.card__link:hover{
+    text-decoration: underline;
+}
+.card__description{
+    color: black;
+}
