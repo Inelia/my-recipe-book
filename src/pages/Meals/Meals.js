@@ -1,7 +1,7 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
-import {useParams} from "react-router-dom"
+// import {useParams} from "react-router-dom"
 import Home from '../Home/Home';
 import Card from "../../components/Card/Card";
 import data from "../../data"
@@ -23,7 +23,7 @@ function Meals() {
         <Home />
   }
 
-  const recipeByType = data.recipes.filter(recipes => recipes.type == params).map((iteration) => {
+  const recipeByType = data.recipes.filter(recipes => recipes.type === params).map((iteration) => {
       if(iteration.type === params){
         return <Card key={iteration.title}{ ...iteration} />
       }
