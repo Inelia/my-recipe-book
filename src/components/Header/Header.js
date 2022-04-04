@@ -9,11 +9,8 @@ function Header() {
             <h1>My Recipe Book</h1>
         {/* <nav className='navigation'>
                 <a href="accueil">Accueil</a>
-                
                 <a href="starters">Entrées</a>
-                
                 <a href="mains">Plats</a>
-                
                 <a href="desserts">Déssert</a>
                
         </nav> */}
