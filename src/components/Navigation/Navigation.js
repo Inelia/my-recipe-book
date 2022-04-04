@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 import Home from '../../pages/Home/Home'
-import Meals from './Meals/Meals'
+import Meals from '../Meals/Meals'
 
 export default function App() {
   return (

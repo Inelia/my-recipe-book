@@ -71,7 +71,7 @@ export default{
         },
         {
             title:"Pizza poulet au curry et ananas",
-            description:"",
+            description:"Pour ceux qui n'ont pas de goût ...",
             type:"Plat principal",
             level:"Facile",
             servs:"4",
@@ -84,7 +84,7 @@ export default{
                 "2 filets de poulet",
                 "1 boîte de sauce tomates aux légumes",
                 "1 boîte d'ananas en morceaux",
-                "150 g de gruyére râpé",
+                "150 g de gruyère râpé",
                 "2 c. à café de curry",
                 "quelques olives",
                 "huile d'olives"
