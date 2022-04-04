@@ -78,7 +78,7 @@ export default{
             prepTemp:"20min",
             cookingTemp:"35min",
             stars:"4.5",
-            cost:"€€",
+            cost:"€€€",
             ingredients:[
                 "1 rouleau de pâte à pizza",
                 "2 filets de poulet",
