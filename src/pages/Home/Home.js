@@ -1,5 +1,5 @@
 import React from "react"
-import "./Home.css"
+import "./home.css"
 import Card from "../../components/Card/Card";
 
 
