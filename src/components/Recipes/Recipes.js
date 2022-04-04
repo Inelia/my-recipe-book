@@ -16,7 +16,11 @@ function Recipes(props) {
         <p>{props.level}</p>
       </section>
       <section className='recipe__stars'>
-        <i class="fa-solid fa-hat-chef"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
         <p>{props.stars}</p>
       </section>
       </section>
