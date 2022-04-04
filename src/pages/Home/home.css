@@ -1,5 +1,7 @@
 
 main{
-    background-color: rgb(233, 227, 227);
+    background-color: #cadacf;
     padding: 2rem;
+    display: flex;
+    justify-content: space-around;
 }
