@@ -2,10 +2,10 @@
 h1{
     font-family: 'Grape Nuts', cursive;
     font-size: 3rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 header{
-    background-color: #f1912ada;
+    background-color: #08393e;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,7 +23,8 @@ nav{
 header a{ 
     text-decoration: none;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 94, 0);
+    background-color: #08393e;
+    border: solid 3px #cadacf;
     height: 2rem;
     width: 5rem;
     text-align: center;
@@ -33,7 +34,7 @@ header a{
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
-    text-decoration: underline  #000000;
+    
+    text-decoration: underline  #cadacf;
 }
 

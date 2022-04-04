@@ -1,3 +1,7 @@
+
 main{
-    background-color: indianred;
+    background-color: #cadacf;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
 }
