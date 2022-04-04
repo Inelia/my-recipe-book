@@ -5,19 +5,22 @@ import { useLocation } from 'react-router-dom';
 import Home from '../Home/Home';
 import Card from "../../components/Card/Card";
 import data from "../../data"
+import "./Meals.css"
 
 function Meals() {
   const location = useLocation();
   const params = location.pathname.split('/')[2];
+  // console.log(location.pathname.split('/')[2]);
+  let mealType;
   switch (params){
     case 'starter':
-      console.log(params);
+      mealType='Entrée';
       break;
     case 'main':
-      console.log(params);
+      mealType='Plat';
       break;
     case 'dessert':
-      console.log(params);
+      mealType='Dessert';
       break;
       default:
         <Home />
@@ -28,14 +31,16 @@ function Meals() {
         return <Card key={iteration.title}{ ...iteration} />
       }
     });
-        console.log(recipeByType);
+        // console.log(recipeByType);
 
   return (
     // console.log(recipeByType);
-    <div>
-      <h4>Plats du jours !</h4>
+    <main className='meal'>
+      <h4>{mealType} du jours !</h4>
+      <section className='meal__section'>
       {recipeByType}
-    </div>
+      </section>
+    </main>
   )
 }
 
