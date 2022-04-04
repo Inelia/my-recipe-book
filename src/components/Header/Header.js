@@ -1,13 +1,13 @@
 import React from 'react'
+import Navigation from './../Navigation/Navigation'
 import "./Header.css"
+
 
 function Header() {
   return (
     <header>
-        <div>
             <h1>My Recipe Book</h1>
-        </div>
-        <nav>
+        {/* <nav className='navigation'>
                 <a href="accueil">Accueil</a>
                 
                 <a href="starters">Entrées</a>
@@ -16,7 +16,8 @@ function Header() {
                 
                 <a href="desserts">Déssert</a>
                
-        </nav>
+        </nav> */}
+        <Navigation />
     </header>
   )
 }
