@@ -2,6 +2,7 @@
 export default{
     recipes:[
         {
+            id:"0",
             title:"Tarte aux fraises ",
             description:"On ne la présente plus la célèbre tarte aux fraises !! mais c'est un régal que de la manger , et forcement à la saison de ce fruit délicieux , impossible de ne pas succomber à une bonne tarte !!",
             type:"dessert",
@@ -39,6 +40,7 @@ export default{
             ],
         },
         {
+            id:"1",
             title:"Croquettes de légumes",
             description:"Les meilleurs croquettes de ma grand-mère.",
             type:"starter",
@@ -70,6 +72,7 @@ export default{
             ],
         },
         {
+            id:"2",
             title:"Pizza poulet au curry et ananas",
             description:"Pour ceux qui n'ont pas de goût ...",
             type:"main",
@@ -101,6 +104,7 @@ export default{
             ],
         },
         {
+            id:"3",
             title:"Oeuf au plat",
             description:"Facile, rapide et pas cher, l'indémodable oeuf au plat.",
             type:"starter",
@@ -125,6 +129,7 @@ export default{
             ],
         },
         {
+            id:"4",
             title:"Surprise du chef",
             description:"Si tu as faim, mange ta main.",
             type:"dessert",
