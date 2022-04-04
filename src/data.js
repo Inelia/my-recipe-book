@@ -41,7 +41,7 @@ export default{
         {
             title:"Croquettes de légumes",
             description:"Les meilleurs croquettes de ma grand-mère.",
-            type:"Entrée",
+            type:"starter",
             level:"Facile",
             servs:"6",
             prepTemp:"30min",
@@ -72,7 +72,7 @@ export default{
         {
             title:"Pizza poulet au curry et ananas",
             description:"Pour ceux qui n'ont pas de goût ...",
-            type:"Plat principal",
+            type:"main",
             level:"Facile",
             servs:"4",
             prepTemp:"20min",

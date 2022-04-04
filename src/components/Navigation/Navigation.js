@@ -7,9 +7,9 @@ export default function App() {
   return (
         <nav className='navigation'>
               <Link to="/home">Accueil</Link>
-              <Link to="/starter">Entrées</Link>
-              <Link to="/main">Plats</Link>
-              <Link to="/dessert">Desserts</Link>
+              <Link to="/meals/starter">Entrées</Link>
+              <Link to="/meals/main">Plats</Link>
+              <Link to="/meals/dessert">Desserts</Link>
               <Outlet/>
         </nav>
   );
