@@ -41,7 +41,7 @@ export default{
         {
             title:"Croquettes de légumes",
             description:"Les meilleurs croquettes de ma grand-mère.",
-            type:"Entrée",
+            type:"starter",
             level:"Facile",
             servs:"6",
             prepTemp:"30min",
@@ -71,8 +71,8 @@ export default{
         },
         {
             title:"Pizza poulet au curry et ananas",
-            description:"Pour ceux qui n'ont pas de goût",
-            type:"Plat principal",
+            description:"Pour ceux qui n'ont pas de goût ...",
+            type:"main",
             level:"Facile",
             servs:"4",
             prepTemp:"20min",
@@ -84,7 +84,7 @@ export default{
                 "2 filets de poulet",
                 "1 boîte de sauce tomates aux légumes",
                 "1 boîte d'ananas en morceaux",
-                "150 g de gruyére râpé",
+                "150 g de gruyère râpé",
                 "2 c. à café de curry",
                 "quelques olives",
                 "huile d'olives"
@@ -99,6 +99,57 @@ export default{
                 "Finissez par un peu de gruyère râpé et quelques olives pour le décor.",
                 "Enfournez pendant 20 min."
             ],
-        }
+        },
+        {
+            title:"Oeuf au plat",
+            description:"Facile, rapide et pas cher, l'indémodable oeuf au plat.",
+            type:"starter",
+            level:"Facile",
+            servs:"4",
+            prepTemp:"5min",
+            cookingTemp:"5min",
+            stars:"3.5",
+            cost:"€",
+            ingredients:[
+                "4 oeuf bien frais",
+                "15g de beurre",
+                "sel",
+                "poivre"
+            ],
+            img:"https://cac.img.pmdstatic.net/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcac.2F2018.2F09.2F25.2Fe4927d2a-ca72-4717-8384-6c00a8b84501.2Ejpeg/748x372/quality/90/crop-from/center/oeuf-au-plat.jpeg",
+            instructions:[
+                "Faites fondre le beurre dans une poêle à feu moyen.",
+                "Cassez délicatement les oeufs dans la poêle en prenant soin de ne pas crever le jaune. Salez et poivrez.",
+                "Laissez cuire 2 à 3 min selon votre goût à feu moyen/vif : le jaune doit rester coulant et le blanc être frit.",
+                "Servez immédiatement."
+            ],
+        },
+        {
+            title:"Surprise du chef",
+            description:"Si tu as faim, mange ta main.",
+            type:"dessert",
+            level:"Facile",
+            servs:"4",
+            prepTemp:"5min",
+            cookingTemp:"5min",
+            stars:"3.5",
+            cost:"€",
+            ingredients:[
+                "200g de farine",
+                "100g de sucre",
+                "80g de beurre",
+                "1 oeuf",
+                "1 sachet de sucre vanillé",
+                "Confiture de cerise ou confiture de framboises",
+                "Amandes",
+            ],
+            img:"https://img.over-blog-kiwi.com/2/66/79/05/20181020/ob_fd2f69_44519364-2286055754755758-980383163563.jpg",
+            instructions:[
+                "Faites fondre le beurre dans une poêle à feu moyen.",
+                "Cassez délicatement les oeufs dans la poêle en prenant soin de ne pas crever le jaune. Salez et poivrez.",
+                "Laissez cuire 2 à 3 min selon votre goût à feu moyen/vif : le jaune doit rester coulant et le blanc être frit.",
+                "Servez immédiatement."
+            ],
+        },
     ]
 }

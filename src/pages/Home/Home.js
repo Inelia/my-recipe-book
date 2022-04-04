@@ -1,6 +1,8 @@
 import React from "react"
 import "./home.css"
 import Card from "../../components/Card/Card";
+// import Header from "../../components/Header/Header"
+// import Footer from "../../components/Footer/Footer"
 import data from "../../data"
 
 function Home() {
