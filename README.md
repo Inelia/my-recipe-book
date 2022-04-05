@@ -1,6 +1,6 @@
 # Création d'une application avec ReactJS
 
-Le but de c'est application était de créer une petite app utilisant les props et permettant une navigations entre diverses pages.
+Le but de cette application était de créer une petite app utilisant les props et permettant une navigations entre diverses pages.
 
 ## Available Scripts
 
