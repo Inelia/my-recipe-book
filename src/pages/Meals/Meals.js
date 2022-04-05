@@ -14,13 +14,13 @@ function Meals() {
   let mealType;
   switch (params){
     case 'starter':
-      mealType='Entrée';
+      mealType='Entrées';
       break;
     case 'main':
       mealType='Plat';
       break;
     case 'dessert':
-      mealType='Dessert';
+      mealType='Desserts';
       break;
       default:
         <Home />
