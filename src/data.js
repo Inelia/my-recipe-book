@@ -48,7 +48,7 @@ export default{
             servs:"6",
             prepTemp:"30min",
             cookingTemp:"25min",
-            stars:"5",
+            stars:"5/5",
             cost:"€",
             ingredients:[
                 "1 courgette",
@@ -80,7 +80,7 @@ export default{
             servs:"4",
             prepTemp:"20min",
             cookingTemp:"35min",
-            stars:"4.5",
+            stars:"1.5/5",
             cost:"€€€",
             ingredients:[
                 "1 rouleau de pâte à pizza",
@@ -112,7 +112,7 @@ export default{
             servs:"4",
             prepTemp:"5min",
             cookingTemp:"5min",
-            stars:"3.5",
+            stars:"3.5/5",
             cost:"€",
             ingredients:[
                 "4 oeuf bien frais",
@@ -137,7 +137,7 @@ export default{
             servs:"4",
             prepTemp:"5min",
             cookingTemp:"5min",
-            stars:"3.5",
+            stars:"3.5/5",
             cost:"€",
             ingredients:[
                 "200g de farine",
