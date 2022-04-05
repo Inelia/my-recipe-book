@@ -24,11 +24,27 @@
     font-size: 2rem;
     color: rgb(0, 0, 0);
 }
-
-.recipe__difficulty p{
+.recipe__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 350px;
+    
+}
+.recipe__info p{
     color: rgb(0, 0, 0);
+    
 }
 .fa-star{
     color: #ffdc10;
+}
 
+.fa-solid, .fas {
+    margin-right: 5px;
+
+}
+
+.recipe__ingredient, .recipe__instruction {
+    font-family: 'Grape Nuts', cursive;
+    font-size: 1.3rem;
 }
