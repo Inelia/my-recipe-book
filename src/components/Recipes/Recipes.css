@@ -25,9 +25,10 @@
     color: rgb(0, 0, 0);
 }
 
-p{
-    color: black;
+.recipe__difficulty p{
+    color: rgb(0, 0, 0);
 }
 .fa-star{
     color: #ffdc10;
+
 }
