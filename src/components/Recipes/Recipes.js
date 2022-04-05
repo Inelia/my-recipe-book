@@ -7,7 +7,13 @@ let list = [];
 ingredients.forEach(ingredient => {
       list.push(<p class="recipe__ingredient">{ingredient}</p>);
   });
-  
+  let instruct = props.instructions;
+  const instruction = [];
+  let count =0;
+  instruct.forEach(i =>{
+    ++count
+    instruction.push(<p class="recipe__instruction"><i className=''>{count}.</i> {i}</p>);
+  })
   return (
     <article className='recipe__details'>
       <h3 className='recipe__title'>{props.title}</h3>
@@ -34,8 +40,9 @@ ingredients.forEach(ingredient => {
         <article className="recipe__list">
           {list}
         </article>
-
-        
+        <article>
+          {instruction}
+        </article>
       </section>
     </article>
   )
