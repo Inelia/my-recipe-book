@@ -28,11 +28,14 @@ ingredients.forEach(ingredient => {
         <section className='recipe__stars'>          
           <p><i class="fas fa-star"></i>{props.stars}</p>
         </section>
+        
       </section>
+      <div className='hr'/>
       <section>
         <article className="recipe__list">
           {list}
         </article>
+        <div className='hr'/>
         <article>
           {instruction}
         </article>
