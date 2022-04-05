@@ -10,7 +10,6 @@ import "./Meals.css"
 function Meals() {
   const location = useLocation();
   const params = location.pathname.split('/')[2];
-  // console.log(location.pathname.split('/')[2]);
   let mealType;
   switch (params){
     case 'starter':
@@ -31,10 +30,7 @@ function Meals() {
         return <Card key={iteration.title}{ ...iteration} />
       }
     });
-        // console.log(recipeByType);
-
   return (
-    // console.log(recipeByType);
     <main className='meal'>
       <h4>{mealType} du jours !</h4>
       <section className='meal__section'>
