@@ -24,6 +24,8 @@ export default{
                 "170 grammes de fraises ",
                 "1 c. à soupe d'eau de fleur d'oranger ",
                 "2 c. à soupe d'eau ",
+                "",
+                "",
                 "Pour la garniture ",
                 "250 grammes de fraises ",
                 "quelques myrtilles",
