@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Création d'une application avec ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Le but de c'est application était de créer une petite app utilisant les props et permettant une navigations entre diverses pages.
 
 ## Available Scripts
 
